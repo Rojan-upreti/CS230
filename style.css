@@ -1,20 +1,24 @@
-nav {
-    background-color: #f1f1f1;
-    padding: 10px;
-}
-
-ul {
-    list-style-type: none;
+header {
     display: flex;
     justify-content: space-between;
 }
 
-li {
-    flex: 1;
-    text-align: center;
+h1 {
+    font-size: 2em;
+    font-weight: bold;
 }
 
-a {
-    color: black;
+nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
     text-decoration: none;
+    color: black;
 }
