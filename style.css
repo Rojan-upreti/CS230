@@ -1,0 +1,20 @@
+nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    flex: 1;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
