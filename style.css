@@ -20,11 +20,22 @@
 }
 
 .pg4-3 {
-    background-color: papayawhip;
+    background-color: rgb(216, 210, 201);
     text-align: center;
     height: 350px;
     padding-top: 100px;
     font-size: 100px;
     font-family: fantasy;
     border-radius: 50%;
+    text-shadow: 2px 2px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.pg4-4 {
+    background-image: linear-gradient(to right, blue, green);
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
