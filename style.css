@@ -2,3 +2,29 @@
     text-align: center;
     font-size: 24px;
 }
+
+
+/* css class from the page 4, first welcome text */
+
+.info {
+    text-align: center;
+    padding-top: 30px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.pg4-2 {
+    border-radius: 2%;
+    padding-top: 30px;
+    padding-left: 25%;
+}
+
+.pg4-3 {
+    background-color: papayawhip;
+    text-align: center;
+    height: 350px;
+    padding-top: 100px;
+    font-size: 100px;
+    font-family: fantasy;
+    border-radius: 50%;
+}
