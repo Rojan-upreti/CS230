@@ -52,3 +52,18 @@
     font-size: 50px;
     font-family: cursive;
 }
+
+.pg6-1 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.pg6-2 {
+    padding: 70px;
+    margin: 100px;
+    border: 2px solid rgb(23, 29, 204);
+    width: 1080px;
+    padding-left: 20%;
+}
