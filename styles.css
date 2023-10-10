@@ -1,0 +1,80 @@
+/* This is a specific css file for the page5 ( assignment 5) */
+
+div {
+    color: rgb(0, 0, 0);
+}
+
+.info {
+    font-size: 24px;
+    text-align: center;
+}
+
+#logo {
+    padding-left: 25%;
+    padding-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+[alt="caldwell university logo"] {
+    border: 1px solid #ccc;
+}
+
+.pg5-3 p {
+    font-weight: bold;
+    padding-left: 35%;
+    padding-top: 20px;
+}
+
+.pg5-3>p {
+    text-decoration: underline;
+}
+
+.pg5-4:not(.pg4-3) {
+    background-color: #b57e7e;
+    padding-left: 35%;
+    font-weight: bold;
+}
+
+.pg5-4:active {
+    color: rgb(186, 156, 84);
+}
+
+.pg5-4:hover {
+    background-color: #e0e0e0;
+}
+
+.pg5-2:nth-child(odd) {
+    border: 2px solid rgb(222, 184, 156);
+    padding: 1px;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn {
+    border: none;
+    background-color: rgb(206, 136, 52);
+    margin-top: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 35%;
+    font-weight: bold;
+}
+
+
+/* On mouse-over */
+
+.btn:hover {
+    background: #a91919;
+}
