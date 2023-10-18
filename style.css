@@ -1,81 +1,93 @@
-.first {
-    text-align: center;
-    font-size: 24px;
-}
-
-
-/* css class from the page 4, first welcome text */
-
-.info {
-    text-align: center;
-    padding-top: 30px;
-    font-size: larger;
-    font-weight: bold;
-}
-
-.pg4-2 {
-    border-radius: 2%;
-    padding-top: 30px;
-    padding-left: 25%;
-}
-
-.pg4-3 {
-    background-color: rgb(216, 210, 201);
-    text-align: center;
-    height: 350px;
-    padding-top: 100px;
-    font-size: 100px;
-    font-family: fantasy;
-    border-radius: 50%;
-    text-shadow: 2px 2px;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.pg4-4 {
-    background-image: linear-gradient(to right, blue, green);
-    text-align: center;
-    font-size: 50px;
-    color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    cursor: default;
-}
-
-.pg5-button {
-    padding-top: 18%;
-    padding-left: 40%;
-}
-
-.pg5-2 {
-    text-align: center;
-    padding-top: 25%;
-    font-size: 50px;
-    font-family: cursive;
-}
-
-.pg6-1 {
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 30px;
-}
-
-.pg6-2 {
-    padding: 70px;
-    margin: 100px;
-    border: 2px solid rgb(23, 29, 204);
-    width: 1080px;
-    padding-left: 20%;
-}
-
-.pg-7-1-flex-container {
-    font-family: sans-serif;
-    padding: 2%;
-    margin-left: 10%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex-item {
-    flex: 1;
-}
+    .first {
+        text-align: center;
+        font-size: 24px;
+    }
+    /* css class from the page 4, first welcome text */
+    
+    .info {
+        text-align: center;
+        padding-top: 30px;
+        font-size: larger;
+        font-weight: bold;
+    }
+    
+    .pg4-2 {
+        border-radius: 2%;
+        padding-top: 30px;
+        padding-left: 25%;
+    }
+    
+    .pg4-3 {
+        background-color: rgb(216, 210, 201);
+        text-align: center;
+        height: 350px;
+        padding-top: 100px;
+        font-size: 100px;
+        font-family: fantasy;
+        border-radius: 50%;
+        text-shadow: 2px 2px;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .pg4-4 {
+        background-image: linear-gradient(to right, blue, green);
+        text-align: center;
+        font-size: 50px;
+        color: aliceblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: default;
+    }
+    
+    .pg5-button {
+        padding-top: 18%;
+        padding-left: 40%;
+    }
+    
+    .pg5-2 {
+        text-align: center;
+        padding-top: 25%;
+        font-size: 50px;
+        font-family: cursive;
+    }
+    
+    .pg6-1 {
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+    .pg6-2 {
+        padding: 70px;
+        margin: 100px;
+        border: 2px solid rgb(23, 29, 204);
+        width: 1080px;
+        padding-left: 20%;
+    }
+    
+    .pg-7-1-flex-container {
+        font-family: sans-serif;
+        padding: 2%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .flex-item {
+        flex: 1;
+    }
+    
+    .pg7-grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        font-family: sans-serif;
+        padding: 2%;
+        background-color: #261e1e;
+        color: white;
+    }
+    
+    .footer-item {
+        text-align: center;
+    }
