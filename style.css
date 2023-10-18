@@ -67,3 +67,15 @@
     width: 1080px;
     padding-left: 20%;
 }
+
+.pg-7-1-flex-container {
+    font-family: sans-serif;
+    padding: 2%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    flex: 1;
+}
