@@ -36,7 +36,7 @@
 
 
 
-    <div style="text-align: center; padding: 20px; font-family: sans-serif; font-size: 40px; font-weight: 600;">
+    <div style="text-align: center; padding: 20px; font-family: sans-serif; font-size: 40px; font-weight: 600;background-color: #fbf9fa;">
         Driving License Registration! <img style="width: 2%;" src="https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Kingdom_of_Nepal.gif">
     </div>
 
@@ -86,6 +86,172 @@
     </div>
 
 
+    <div style="font-family: serif; text-align: center; padding: 10px; background-color: #0971c0; font-weight: 900;font-size: 20px; color: #fbf9fa;"> Address Details</div>
+
+
+
+    <!----Address Details -->
+    <div class="pg-8-1-flex-container">
+        <div class="flex-item">
+
+
+            <form>
+                Province: <select name="zone" id="zone">
+                    <option value="">Select a zone</option>
+                    <option value="Bagmati">Bagmati</option>
+                    <option value="Bheri">Bheri</option>
+                    <option value="Dhaulagiri">Dhaulagiri</option>
+                    <option value="Gandaki">Gandaki</option>
+                    <option value="Janakpur">Janakpur</option>
+                    <option value="Karnali">Karnali</option>
+                    <option value="Koshi">Koshi</option>
+                    <option value="Lumbini">Lumbini</option>
+                    <option value="Mahakali">Mahakali</option>
+                    <option value="Mechi">Mechi</option>
+                    <option value="Narayani">Narayani</option>
+                    <option value="Rapti">Rapti</option>
+                    <option value="Sagharmāthā">Sagharmāthā</option>
+                    <option value="Seti">Seti</option>
+                  </select>
+                <br><br>
+                <label for="District">District:</label>
+                <input type="text">
+                <br><br>
+                <label for="Municipality">Municipality:</label>
+                <input type="text" required>
+
+            </form>
+
+
+
+        </div>
+
+
+
+
+        <div class="flex-item">
+
+            <form>
+                <label for="Ward">Ward No:</label>
+                <input type="number">
+                <br><br>
+                <label for="Tole">Tole :</label>
+                <input type="text">
+                <br><br>
+                <label for="Block">Block No:</label>
+                <input type="text">
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div style="font-family: serif; text-align: center; padding: 10px; background-color: #0971c0; font-weight: 900;font-size: 20px; color: #fbf9fa;">Miscellaneous</div>
+
+
+    <div class="pg-8-1-flex-container">
+        <div class="flex-item">
+
+
+            <form>
+                Are you Nepali Citizen?<br>
+                <input type="radio" name="citizen" value="yes"> Yes<br>
+                <input type="radio" name="citizen" value="no"> No<br><br>
+
+
+
+                <label for="country">Citizenship:</label>
+                <select id="country" name="country">
+
+                <option value="">Select a country</option>  
+                <option value="NP">Nepal</option>             
+                <option value="US">United States</option>
+                <option value="CA">Canada</option>
+                <option value="GB">United Kingdom</option>
+                <option value="AU">Australia</option>
+                <option value="DE">Germany</option>
+                <option value="FR">France</option>
+                <option value="JP">Japan</option>
+                <option value="IT">Italy</option>
+                <option value="BR">Brazil</option>
+                <option value="IN">India</option>
+                <option value="CN">China</option>
+                <option value="RU">Russia</option>
+                <option value="ZA">South Africa</option>
+                <option value="MX">Mexico</option>
+                <option value="ES">Spain</option>
+                <option value="AR">Argentina</option>
+                <option value="EG">Egypt</option>
+                <option value="NG">Nigeria</option>
+                <option value="SA">Saudi Arabia</option>
+                <option value="KR">South Korea</option>
+        </select>
+
+                <br><br>
+                <label for="citizen_no">Citizen No. :</label>
+                <input type="number" required>
+
+            </form>
+
+
+
+        </div>
+
+
+
+
+        <div class="flex-item">
+
+            <form>
+                Applying first Time?<br>
+                <input type="radio" name="first-license" value="yes"> Yes<br>
+                <input type="radio" name="first-license" value="no"> No<br> <br> License Category: <select name="license_category" id="license_category">
+                    <option value="A">Motorcycle</option>
+                    <option value="B">Light four-wheeler</option>
+                    <option value="C">Heavy four-wheeler</option>
+                    <option value="D">Light commercial vehicle</option>
+                    <option value="E">Heavy commercial vehicle</option>
+                    <option value="F">Tractor</option>
+                    <option value="G">Heavy machinery</option>
+                    <option value="H">Public service vehicle</option>
+                    <option value="I">International driving license</option>
+                  </select>
+
+
+                <br>
+                <br> Group: <select name="blood_group" id="blood_group">
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                  </select>
+                <br> <br>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <div style="font-family: Verdana; text-align: center; padding: 10px; background-color:  #fbf9fa; font-weight: 100;font-size: 15px; "><input type="checkbox" name="agree_to_certify_info" id="agree_to_certify_info">
+        <label for="agree_to_certify_info">I agree to certify that all information I have provided is correct.</label>
+        <br>
+        <input type="checkbox" name="agree_to_data_sharing" id="agree_to_data_sharing">
+        <label for="agree_to_data_sharing">I agree to allow my data to be used for governmental processes.</label>
+
+    </div>
+
+
+    <div style="text-align: center; background-color: #fbf9fa; font-size: 20px;">
+        <input type="submit" value="Submit">
+    </div>
 
 
 
